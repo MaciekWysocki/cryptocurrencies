@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-color: grey;
+    color: white;
 }
 
 #logo {
@@ -26,11 +28,10 @@ body {
 }
 section {
     float: right;
-    margin-top: 200px;
-    margin-right: 5%;
-    margin-left: 21%;
+    margin: 200px 5% 0 21%;
     position: relative;
     top: 5px;
+    padding-bottom: 150px;
 }
 
 aside {
@@ -47,6 +48,28 @@ aside nav {
     padding: 20px 10px;
 }
 
-ul li {
-    padding-top: 30px;
+footer {
+    height: 50px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    z-index: 3;
+    background-color: blue;
+}
+
+.social-networks {
+    text-align: center;
+    list-style-type: none;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 0 0 0 5%;
+    padding-left: 10%;
+    color: #3a3a3a;
 }
