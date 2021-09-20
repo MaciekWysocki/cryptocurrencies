@@ -1,7 +1,14 @@
-header {
-    background: url('../images/asdasdasd.jpg') no-repeat center center;
-    height: 300px;
-    width: 100%;
-    text-align: center;
-    position: 0 auto;
+#menu li {
+    list-style-type: none;
+}
+section {
+    float: right;
+    width: 75%;
+    margin-right: 5%;
+    position: relative;
+}
+
+aside {
+    position:relative;
+    float: left;
 }
