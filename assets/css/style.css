@@ -87,9 +87,16 @@ footer {
 .social-networks i {
     font-size: 160%;
     padding: 0 10%;
-    color: #3a3a3a;
+    color: white;
 }
 
 .active {
     border-bottom: 1px solid white;
+}
+
+section .signup-form {
+    position: relative;
+    top: 0;
+    left: 10px;
+    float: left;
 }

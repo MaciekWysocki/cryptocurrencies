@@ -27,8 +27,33 @@
         </nav>
 
     </aside>
+
     <section>
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Sign up to have a chance to get an Airdrop!</h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+    
+            <label for="wallet">Wallet Adress</label>
+            <input class="text-input" id="wallet" name="wallet" type="text" required>
+    
+    
+            <h2>Do you want to receive emails with news?</h2> 
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="info_mail" value="yes" required>
+            <label for="no">No</label>
+            <input type="radio" id="no" name="info_mail" value="no">
+            
+            <input class="sign-up" type="submit" value="Sign Up!">
+        </form>
     </section>
+
     <footer>
         <ul class="social-networks">
             <li>
