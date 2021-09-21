@@ -179,3 +179,32 @@ footer {
     }
     
 }
+
+@media screen and (max-width: 500px) {
+    #logo {
+        height: 100px;
+    }
+
+    aside nav {
+        margin-top: 100px;
+    }
+
+    #logo h1 {
+        top: 35px;
+        font-size: 90%;
+    }
+
+    section {
+        margin: 100px 5% 0 110px;
+    }
+
+    .signup-form {
+        margin: 20px 10% 0 0;
+    }
+
+    aside {
+        width: 100px;
+        font-size: 50%;
+    }
+    
+}

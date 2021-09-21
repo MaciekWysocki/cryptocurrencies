@@ -1,2 +1,7 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
+# Cryptocurrecies
+Cryptocurrencies is a site devoted to expand people knowledge about cryptocurrencies.
+# Features
+## Existing features
+# Testing
+# Deployment
+# Credits
