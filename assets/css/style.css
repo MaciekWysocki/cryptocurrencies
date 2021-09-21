@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto:wght@500&display=swap');
-h1, h2 {
+h1, h2, label, nav li {
     font-family: Orbitron, sans-serif;
 }
 
@@ -70,7 +70,7 @@ aside {
 aside nav {
     margin-top: 200px;
     background-color: blue;
-    height: 1000px;
+    height: 1500px;
     padding: 20px 5%;
 }
 
@@ -87,6 +87,7 @@ footer {
 .social-networks {
     text-align: center;
     list-style-type: none;
+    width: 100%
 }
 
 .social-networks > li {
@@ -100,7 +101,7 @@ footer {
 }
 
 .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid red;
 }
 
 
@@ -118,8 +119,6 @@ footer {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
     padding: 30px;
 }
 
@@ -134,12 +133,12 @@ footer {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid white;
     border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color:blue;
 }
 
 .sign-up {
@@ -148,7 +147,7 @@ footer {
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color:grey;
+    background-color:blue;
     color:white;
     display: block;
 }
@@ -158,6 +157,25 @@ footer {
     color: grey;
 }
 
-form {
+@media screen and (max-width: 950px) {
+    #logo {
+        height: 100px;
+    }
 
+    aside nav {
+        margin-top: 100px;
+    }
+
+    #logo h1 {
+        top: 35px;
+    }
+
+    section {
+        margin: 100px 5% 0 160px;
+    }
+
+    .signup-form {
+        margin: 20px 10% 0 0;
+    }
+    
 }
